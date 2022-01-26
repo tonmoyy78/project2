@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* global tag */
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+/* header part */
+#Main-header{
+    background-image: url(./img/background1.png);
+    background-size: cover;
+    width: 100%;
+    float: left;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.logo-part{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+}
+.menu-part{
+    width: 60%;
+    float: left;
+    margin-top: 64px;
+    text-align: end
+}
+.menu-part ul li{
+   display: inline-block;
+
+}
+.menu-part ul li a{
+text-decoration: none;
+padding: 30px;
+color: #fff;
+}
+.header-contant{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 135px;
+    padding: 10px;
+}
+.btn{
+   float: left;
+   width: 100%;
+   text-align: center;
+   cursor: pointer;
+}
+.btn button{
+    width: 10%;
+    padding: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: #0CC5F1;
+    border-color: #fff;
+    border-style: double; 
+}
+.btn button:hover{
+    background-color: #fff;
+    transition: ease-in-out 0.5s;
+}
+.img-section1{
+float: left;
+text-align: center;
+width: 100%;
+margin-top: 12%;
+}
+
+/* main */
+
+/* support section */
+#hero-section{
+    background-image: url(./img/background2.png);
+    background-size: cover;
+    width: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-section2{}
+.support{}
